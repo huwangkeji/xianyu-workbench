@@ -1,0 +1,25 @@
+{
+  "name": "xianyu-workbench",
+  "version": "1.1.0",
+  "description": "Xianyu automation workbench (Node.js + SQLite via node:sqlite, no framework, zero npm dependencies)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "init-db": "node scripts/init-db.js",
+    "doctor": "node scripts/doctor.js",
+    "reset-password": "node scripts/reset-password.js",
+    "smoke": "node scripts/smoke-test.js",
+    "check": "node scripts/check-syntax.js",
+    "verify": "node scripts/verify-six-systems.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "engines": {
+    "node": ">=22.5"
+  },
+  "dependencies": {
+    "ws": "^8.22.2"
+  }
+}
